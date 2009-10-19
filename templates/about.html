@@ -1,0 +1,29 @@
+{% extends "base_content.html" %}
+<!-- template about.html -->
+{% load i18n %}
+{% load extra_tags %}
+{% load humanize %}
+{% block title %}{% spaceless %}{% trans "About" %}{% endspaceless %}{% endblock %}
+{% block forejs %}
+{% endblock %}
+{% block content %}
+<div class="headNormal">
+{% trans "About" %}
+</div>
+
+<div class="content">
+<p><strong>Codidodemaquina</strong> es un sitio de preguntas y respuesta de programación que es gratis. Es gratis hacer preguntas, es gratis responderlas, es libre de leer por todos y por cualquier buscador, no hay cobros raros pro ver respuestas, etc. Pura libertad.</p>
+<p>Puedes aumentar tu karma/reputación si te regitras en el sitio y eso te permitirá ganar algunas funcionalidades interesantes.</p>
+
+<p>Nosotros no hacemos que codigodemaquina funcione, tu mismo lo hacer. Codigodemaquina está construido sobre la base de la colaboración y construido y mantenido por colegas programdores. Una vez que el sistema aprende a confiar en ti, serás capaz de editar cualquier cosa, en una forma similar a la wikipedia. Con tu ayuda podemos construir buenas respuestas a cada problema de programación, sin importar en que lenguaje esté escrito, o sobre que sistema operativo corra. La mejor programación y el acceso libre a estos conocimientos es lo que nos interesa.</p>
+
+<p>Codigodemaquina es la forma mas fluida de hacer esto que se ha encontrado. Creemos que encontrar la respuesta para tus problemas será tan facil como hacer un click y mucho mas divertido que eso.</p>
+
+<strong><p>Pero cual es la idea? No es esto acaso igual que un montón de otros sitios web?</p> </strong>
+
+<p>No tanto asi, bueno si, pero se ha hecho una mezcla de distintas tecnologías para hacer de esto una experiencia mas gratificante. Es una mezcla de blogs, foros, wikis, Que el famoso sitio llamado stackoverflow sacó primero.</p>
+
+<p>El sitio esta en Beta, espero que funcione lo suficientemente estable</p>
+</div>
+{% endblock %}
+<!-- end template about.html -->
