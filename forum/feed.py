@@ -16,13 +16,13 @@ from models import Question
 import settings
 class RssLastestQuestionsFeed(Feed):
     title = settings.APP_TITLE + _(' - ')+ _('latest questions')
-    link = settings.APP_URL + '/' + _('questions/')
+    link = settings.APP_URL + '/questions/'
     description = settings.APP_DESCRIPTION
     #ttl = 10
     copyright = settings.APP_COPYRIGHT
 
     def item_link(self, item):
-        return self.link + '%s/' % item.id
+        return self.link + '%s/' % item.id 
 
     def item_author_name(self, item):
         return item.author.username

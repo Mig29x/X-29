@@ -696,7 +696,7 @@ msgstr "ver tags"
 
 #: templates/about.html:6 templates/about.html.py:11
 msgid "About"
-msgstr "Acerca de"
+msgstr "¿Cómo Funciona?"
 
 #: templates/answer_edit.html:4 templates/answer_edit.html.py:47
 msgid "Edit answer"
@@ -772,7 +772,7 @@ msgstr "ser claro y conciso"
 
 #: templates/answer_edit_tips.html:19 templates/question_edit_tips.html:16
 msgid "see frequently asked questions"
-msgstr "ver preguntas frecuentes"
+msgstr "ver las Preguntas Frecuentes"
 
 #: templates/answer_edit_tips.html:25 templates/question_edit_tips.html:22
 msgid "Markdown tips"
@@ -970,7 +970,7 @@ msgstr "la respuesta ha sido aceptada como correcta"
 #: templates/book.html:115 templates/index.html:49 templates/questions.html:47
 #: templates/unanswered.html:38 templates/users_questions.html:40
 msgid "views"
-msgstr "vistas"
+msgstr "lecturas"
 
 #: templates/book.html:125 templates/index.html:69 templates/question.html:115
 #: templates/question.html.py:486 templates/questions.html:84
@@ -1205,11 +1205,11 @@ msgstr "."
 
 #: templates/footer.html:7 templates/header.html:14 templates/index.html:83
 msgid "about"
-msgstr "Acerca de"
+msgstr "¿Cómo Funciona Esto?"
 
 #: templates/footer.html:8 templates/header.html:15 templates/index.html:84
 msgid "faq"
-msgstr "preguntas frecuentes"
+msgstr "Preguntas Frecuentes"
 
 #: templates/footer.html:9
 msgid "blog"
@@ -1286,11 +1286,11 @@ msgstr "más nuevas"
 
 #: templates/index.html:25 templates/questions.html:27
 msgid "hottest questions"
-msgstr "preguntas más vistas"
+msgstr "preguntas más leídas"
 
 #: templates/index.html:25 templates/questions.html:27
 msgid "hottest"
-msgstr "más vistas"
+msgstr "más leídas"
 
 #: templates/index.html:26 templates/questions.html:28
 msgid "most voted questions"
